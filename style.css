@@ -10,7 +10,7 @@ header {
 }
 #headerflex {
     color: white;
-    margin: 24px;
+    padding: 40px;
     width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ header {
 
 .hero {
     width: 1000px;
-    margin: 24px;
+    margin: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@ button {
 
 .white-section {
     background-color: white;
-    margin: 24px;
+    margin: 40px;
     display: flex;
     justify-content: center;
 }
@@ -82,4 +82,27 @@ button {
 
 h4 {
     font-weight: 400;
+}
+
+.grey {
+    background-color: rgb(236, 239, 242);
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    margin: 100px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h5 {
+    margin-left: auto;
 }
