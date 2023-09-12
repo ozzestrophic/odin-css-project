@@ -10,8 +10,38 @@ header {
 #headerflex {
     color: white;
     padding: 24px;
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.section {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
+
+.hero {
+    width: 1000px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.right-side,
+.left-side {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
