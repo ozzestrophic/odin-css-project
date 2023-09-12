@@ -1,6 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+#headerflex {
+    color: white;
+    padding: 24px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
