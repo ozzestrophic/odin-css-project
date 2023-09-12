@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Style the header */
 header {
     background-color: #1f2937;
     display: flex;
@@ -16,6 +17,7 @@ header {
     align-items: center;
 }
 
+/* Style the hero section */
 .section {
     display: flex;
     background-color: #1f2937;
@@ -33,6 +35,7 @@ header {
     
 }
 
+/* Set the flex for the right and left sides */
 .right-side,
 .left-side {
     flex: 50%;
@@ -53,4 +56,30 @@ button {
     height: 40px;
     font-weight: 700;
     font-size: medium;
+}
+
+/* Style the second section */
+
+.white-section {
+    background-color: white;
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+h4 {
+    font-weight: 400;
 }
